@@ -108,7 +108,7 @@ static const struct {
   { 6, 1400000, 0, 1503046577 },
 
   // version 7 starts from block 1546000, which is on or around the 6th of April, 2018. Fork time finalised on 2018-03-17.
-  { 7, 1546000, 0, 1521303150 },
+  { 7, 1, 0, 1521303150 },
 };
 static const uint64_t mainnet_hard_fork_version_1_till = 1009826;
 
@@ -131,7 +131,7 @@ static const struct {
 
   { 6, 971400, 0, 1501709789 },
   { 7, 1057027, 0, 1512211236 },
-  { 8, 1057058, 0, 1515967497 },
+  { 8, 1, 0, 1515967497 },
 };
 static const uint64_t testnet_hard_fork_version_1_till = 624633;
 
@@ -150,7 +150,7 @@ static const struct {
   { 4, 34000, 0, 1521240000 },
   { 5, 35000, 0, 1521360000 },
   { 6, 36000, 0, 1521480000 },
-  { 7, 37000, 0, 1521600000 },
+  { 7, 0, 0, 1521600000 },
 };
 
 //------------------------------------------------------------------
